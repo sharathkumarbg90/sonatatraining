@@ -1,8 +1,8 @@
 package com.sonata.test.two;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
+import org.junit.jupiter.api.Test;
 
-import org.junit.Test;
 import org.junit.jupiter.api.Assertions;
 import com.sonata.two.Calculator;
 
