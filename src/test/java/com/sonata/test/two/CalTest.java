@@ -28,12 +28,6 @@ public class CalTest {
 			
 				assertThrows(ArithmeticException.class,()->c3.div(1,0),"it is an error");
 			}
-			@Test
-			public void divTest1() {
-				int x = c3.div(1, 1);
 			
-				assertThrows(ArithmeticException.class,()->c3.div(1,2),"it is an error");
-			}
-
 
 }
