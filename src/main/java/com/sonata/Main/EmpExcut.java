@@ -11,8 +11,8 @@ public class EmpExcut {
 		e1.setEmpSal(100);
 	
 		EmpImpl e2 = new EmpImpl();
-		//System.out.println(e2.yearlySal(e1));
-		//System.out.println(e2.appSal(e1));
+		System.out.println(e2.yearlySal(e1));
+		System.out.println(e2.appSal(e1));
 		
 	}
 
