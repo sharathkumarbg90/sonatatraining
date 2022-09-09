@@ -15,7 +15,7 @@ public class EmpDBTest {
 		e1.setEmpID(102);
 		e1.setEmpName("Sharath");
 		e1.setEmpSal(30000.00);
-		assertEquals(1, ep1.save(e1));
+		assertEquals(0, ep1.save(e1));
 		
 	}
 	@Test
@@ -23,7 +23,7 @@ public class EmpDBTest {
 		e1.setEmpID(104);
 		e1.setEmpName("Jay");
 		e1.setEmpSal(30000.00);
-		assertEquals(1, ep1.save(e1));
+		assertEquals(0, ep1.save(e1));
 		
 	}
 }
