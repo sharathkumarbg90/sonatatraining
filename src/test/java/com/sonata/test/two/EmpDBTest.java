@@ -12,7 +12,7 @@ public class EmpDBTest {
 	
 	@Test
 	public void Test1 () {
-		e1.setEmpID(103);
+		e1.setEmpID(102);
 		e1.setEmpName("Sharath");
 		e1.setEmpSal(30000.00);
 		assertEquals(1, ep1.save(e1));
@@ -20,7 +20,7 @@ public class EmpDBTest {
 	}
 	@Test
 	public void Test2 () {
-		e1.setEmpID(105);
+		e1.setEmpID(104);
 		e1.setEmpName("Jay");
 		e1.setEmpSal(30000.00);
 		assertEquals(1, ep1.save(e1));
